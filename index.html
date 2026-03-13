@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" type="image/png" href="./img/icon.png">
+
+    <link rel="icon" type="image/png" href="./img/icon.png" />
     <title>Portfolio | Gabriel</title>
   </head>
   <body>
@@ -28,6 +29,24 @@
       />
       <h1>Gabriel Moreira</h1>
       <p class="introduction-paragraph">Software Engineer</p>
+
+      <div class="social-buttons">
+        <a
+          href="https://github.com/gabrielmoreira20042-alt"
+          target="_blank"
+          class="social-button github"
+        >
+          GitHub
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/gabriel-moreira-4a331817a/"
+          target="_blank"
+          class="social-button linkedin"
+        >
+          LinkedIn
+        </a>
+      </div>
     </main>
 
     <section id="about" class="about">
@@ -124,13 +143,13 @@
 
         <!-- Inventory Management System -->
         <a
-          href="https://github.com/gabrielmoreira20042-alt/InventoryApp"
+          href="https://inventoryapp-2-rglw.onrender.com/dashboard"
           target="_blank"
           class="project-link-wrapper"
           style="text-decoration: none; color: inherit"
         >
           <div class="projects-card">
-            <div class="project-badge">🔗 GitHub</div>
+            <div class="project-badge">🔗 Live demo</div>
 
             <img
               src="./img/dashboard.png"
@@ -143,11 +162,13 @@
 
               <p class="project-description">
                 Full-stack inventory management system built with Angular 17 and
-                .NET. Includes JWT authentication, role-based access control,
-                product CRUD operations with pagination and filtering, and a
-                real-time dashboard powered by Chart.js. Features CSV
-                import/export, low stock alerts, audit log history, and a REST
-                API documented with Swagger/OpenAPI.
+                .NET 8. Features JWT authentication, role-based access control,
+                product CRUD with pagination and filtering, and a real-time
+                dashboard powered by Chart.js. Includes CSV import/export,
+                low-stock alerts, and audit log tracking. The application
+                exposes a REST API documented with Swagger/OpenAPI and is fully
+                containerized with Docker and deployed on Render for live
+                access.
               </p>
             </div>
           </div>
@@ -294,4 +315,3 @@
     </script>
   </body>
 </html>
-
